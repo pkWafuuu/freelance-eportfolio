@@ -1,8 +1,52 @@
-header {
-	display: flex;
+#landing {
+	height: calc(100vh - 100px);
 }
 
-.header__picture{
+.row {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 0 32px;
+}
+
+@import url(./animations.css);
+
+header {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	max-width: 800px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.header__picture--wrapper{
 	border-radius: 50%;
-	height: 200px;
+	overflow: hidden;
+	width: 300px;
+	height: 300px;
+	animation: expand-then-normal 1000ms ease;
+}
+
+.header__picture {
+	width: 100%;
+	transform: scale(1.2);
+	padding-bottom: 500px;
+}
+
+.header__content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 50%;
+}
+
+.header__title {
+	animation: fade-up 1000ms ease
+}
+
+.header__para {
+	margin-top: 12px;
+	animation: fade-up 1000ms 500ms backwards;
 }
