@@ -1,5 +1,6 @@
 #landing {
 	height: calc(100vh - 100px);
+	background-color: rgb(238, 238, 232);
 }
 
 .row {
@@ -49,4 +50,22 @@ header {
 .header__para {
 	margin-top: 12px;
 	animation: fade-up 1000ms 500ms backwards;
+}
+
+@media (max-width:980px) {
+	header {
+		flex-direction: column;
+		align-items: center;
+	}
+	.header__content {
+		text-align: center;
+		margin-top: 32px;
+	}
+}
+
+@media (max-width:780px) {
+	.header__picture--wrapper {
+		width: 250px;
+		height: 250px;
+	}
 }
