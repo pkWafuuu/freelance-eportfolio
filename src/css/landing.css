@@ -8,6 +8,8 @@
 	padding: 0 32px;
 }
 
+@import url(./animations.css);
+
 header {
 	position: absolute;
 	top: 50%;
@@ -24,6 +26,7 @@ header {
 	overflow: hidden;
 	width: 300px;
 	height: 300px;
+	animation: expand-then-normal 1000ms ease;
 }
 
 .header__picture {
@@ -37,4 +40,13 @@ header {
 	flex-direction: column;
 	justify-content: center;
 	width: 50%;
+}
+
+.header__title {
+	animation: fade-up 1000ms ease
+}
+
+.header__para {
+	margin-top: 12px;
+	animation: fade-up 1000ms 500ms backwards;
 }
