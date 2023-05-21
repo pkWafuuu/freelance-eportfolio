@@ -1,4 +1,4 @@
-function Nav(){
+function Nav({ handleClick, works }){
 	return (
 		<nav>
 			<div className="nav__row">
@@ -6,7 +6,7 @@ function Nav(){
 				<ul className="nav__links">
 					<li className="nav__link">Home</li>
 					<li className="nav__link">Contact</li>
-					<li className="nav__link">Works</li>
+					<li className="nav__link" onClick={() => handleClick(works)}>Works</li>
 				</ul>
 			</div>
 		</nav>

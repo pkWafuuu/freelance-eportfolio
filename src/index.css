@@ -1,8 +1,16 @@
 @import url(./css/nav.css);
 @import url(./css/landing.css);
+@import url(./css/keenslider.css);
+@import url(./css/project.css);
 
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
+
+.container {
+	padding: 90px 0;
+}
+
+
