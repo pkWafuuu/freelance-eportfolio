@@ -15,11 +15,9 @@ function Landing({ landing }) {
           </figure>
           <div className="header__content">
             <h1 className="header__title">
-              Hey, <span className="text__color">Justin</span> here!
+              Hey, Justin here!{" "}
+              <Typical loop={Infinity} steps={[1500, "", 1500, "Poet", 1500, "Writer", 2100, "Web Developer", 2000]} />
             </h1>
-						<h2 className="header__sub-title">
-						<Typical loop={Infinity} steps={[2000, "Poet", 2100, "Writer", 2100, "Web Developer"]} />
-						</h2>
             <p className="header__para">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus,
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi,
@@ -39,8 +37,6 @@ function Landing({ landing }) {
 						</ul>
           </div>
         </header>
-				<img src={collageBG1} alt="" className="bg__filler collage__bg1" />
-				<img src={collageBG2} alt="" className="bg__filler collage__bg2" />
       </div>
     </section>
   );

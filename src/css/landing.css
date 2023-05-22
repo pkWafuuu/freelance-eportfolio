@@ -89,6 +89,24 @@ header {
 	transform: translateX(300px) rotate(-10deg);
 }
 
+.bg__filler{
+	position: absolute;
+}	
+
+.collage__bg1 {
+	z-index: 0;
+	left: 0;
+	bottom: 10px;
+	height: 500px;
+	transform: translateX(-320px) rotate(-20deg);
+}
+
+.collage__bg2 {
+	z-index: 0;
+	right: 0;
+	transform: translateX(300px) rotate(-10deg);
+}
+
 @media (max-width:980px) {
 	header {
 		flex-direction: column;
