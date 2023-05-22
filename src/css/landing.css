@@ -1,6 +1,7 @@
 #landing {
 	height: calc(100vh - 100px);
 	background-color: rgb(238, 238, 232);
+	position: relative;
 }
 
 .row {
@@ -28,6 +29,7 @@ header {
 	width: 300px;
 	height: 300px;
 	animation: expand-then-normal 1000ms ease;
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
 }
 
 .header__picture {
@@ -67,5 +69,15 @@ header {
 	.header__picture--wrapper {
 		width: 250px;
 		height: 250px;
+	}
+}
+
+@media (max-width:560px) {
+	.header__picture--wrapper {
+		width: 200px;
+		height: 200px;
+	}
+	.header__picture{
+		padding-bottom: 300px;
 	}
 }
