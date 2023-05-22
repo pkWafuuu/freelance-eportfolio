@@ -82,12 +82,24 @@ header {
 		text-align: center;
 		margin-top: 32px;
 	}
+	.collage__bg1 {
+		height: 450px;
+		transform: translateX(-270px);
+	}
+	.collage__bg2 {
+		height: 400px;
+		transform: translateX(200px) rotate(-10deg);
+	}
 }
 
 @media (max-width:780px) {
 	.header__picture--wrapper {
 		width: 250px;
 		height: 250px;
+	}
+	.collage__bg1 {
+		height: 400px;
+		transform: translateX(-270px) rotate(-20deg);
 	}
 }
 
@@ -98,5 +110,13 @@ header {
 	}
 	.header__picture{
 		padding-bottom: 300px;
+	}
+	.collage__bg1 {
+		height: 380px;
+		transform: translateX(-270px) rotate(-20deg);
+	}
+	.collage__bg2 {
+		height: 370px;
+		transform: translateX(200px) rotate(-10deg);
 	}
 }
