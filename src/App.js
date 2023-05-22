@@ -6,6 +6,7 @@ import Works from "./components/Works";
 function App() {
 
 	const works = useRef(null);
+	const home = useRef(null)
 
 	function handleClick(elementRef){
 		elementRef.current?.scrollIntoView({behavior: 'smooth'})
@@ -13,8 +14,8 @@ function App() {
 	
   return (
     <>
-      <Nav handleClick={handleClick} works={works}/>
-      <Landing />
+      <Nav handleClick={handleClick} home={home} works={works}/>
+      <Landing home={home} />
 			<Works works={works} />
     </>
   );

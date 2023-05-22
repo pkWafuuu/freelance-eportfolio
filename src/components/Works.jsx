@@ -16,11 +16,6 @@ function Works({ works }) {
     created() {
       setLoaded(true);
     },
-		breakpoints: {
-			'(min-width: 500px)': {
-				
-			},
-		},
   });
 
   return (

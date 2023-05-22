@@ -1,9 +1,9 @@
-import picture from "../assets/b.jpg";
+import picture from "../assets/justin.jpg";
 import Typical from "react-typical";
 
-function Landing() {
+function Landing({ landing }) {
   return (
-    <section id="landing">
+    <section id="landing" ref={landing}>
       <div className="row">
         <header>
           <figure className="header__picture--wrapper">

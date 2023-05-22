@@ -7,10 +7,19 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
 }
 
 .container {
 	padding: 90px 0;
 }
 
+.text__color {
+	color: #b44c34;
+}
 
