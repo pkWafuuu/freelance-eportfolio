@@ -1,7 +1,7 @@
 import Project from "./ui/Project";
 import "keen-slider/keen-slider.min.css";
 import { useKeenSlider } from "keen-slider/react";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { information } from "../data"
 
 function Works({ works }) {
@@ -22,7 +22,6 @@ function Works({ works }) {
 			},
 		},
   });
-
 
   return (
     <section id="works" ref={works}>
