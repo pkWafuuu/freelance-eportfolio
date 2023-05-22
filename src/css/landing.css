@@ -4,6 +4,7 @@
 	height: calc(100vh - 100px);
 	background-color: rgb(238, 238, 232);
 	position: relative;
+	overflow: hidden;
 }
 
 .row {
@@ -19,6 +20,7 @@ header {
 	transform: translate(-50%, -50%);
 	width: 100%;
 	max-width: 800px;
+	z-index: 1;
 	display: flex;
 	justify-content: space-around;
 }
@@ -44,12 +46,31 @@ header {
 }
 
 .header__title {
-	animation: fade-up 1000ms ease
+	animation: fade-up 1000ms ease;
+	font-size: 32px;
 }
 
 .header__para {
 	margin-top: 12px;
 	animation: fade-up 1000ms 500ms backwards;
+}
+
+.bg__filler{
+	position: absolute;
+}	
+
+.collage__bg1 {
+	z-index: 0;
+	left: 0;
+	bottom: 10px;
+	height: 500px;
+	transform: translateX(-320px) rotate(-20deg);
+}
+
+.collage__bg2 {
+	z-index: 0;
+	right: 0;
+	transform: translateX(300px) rotate(-10deg);
 }
 
 @media (max-width:980px) {
