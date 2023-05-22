@@ -1,3 +1,4 @@
+
 .project {
 	display: flex;
 	align-items: center;
@@ -7,6 +8,7 @@
 	border: 2px solid black;
 	border-radius: 10px;
 	margin-top: 24px;
+	color: #fff;
 }
 
 .project:hover .project__content--wrapper {
