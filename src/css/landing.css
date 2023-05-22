@@ -4,6 +4,7 @@
 	height: calc(100vh - 100px);
 	background-color: rgb(238, 238, 232);
 	position: relative;
+	overflow: hidden;
 }
 
 .row {
@@ -19,6 +20,7 @@ header {
 	transform: translate(-50%, -50%);
 	width: 100%;
 	max-width: 800px;
+	z-index: 1;
 	display: flex;
 	justify-content: space-around;
 }
@@ -44,12 +46,47 @@ header {
 }
 
 .header__title {
-	animation: fade-up 1000ms ease
+	animation: fade-up 1000ms ease;
+	font-size: 32px;
 }
 
 .header__para {
 	margin-top: 12px;
-	animation: fade-up 1000ms 500ms backwards;
+	animation: fade-up 1000ms 400ms backwards;
+}
+
+.header__links {
+	display: flex;
+	animation: fade-up 1000ms 700ms backwards;
+}
+
+.header__link {
+	color: #b44c34;
+	font-size: 20px;
+	margin: 16px 12px 0 0 ;
+	transition: transform 300ms ease;
+}
+
+.header__link:hover {
+	transform: translateY(-2px);
+}
+
+.bg__filler{
+	position: absolute;
+}	
+
+.collage__bg1 {
+	z-index: 0;
+	left: 0;
+	bottom: 10px;
+	height: 500px;
+	transform: translateX(-320px) rotate(-20deg);
+}
+
+.collage__bg2 {
+	z-index: 0;
+	right: 0;
+	transform: translateX(300px) rotate(-10deg);
 }
 
 @media (max-width:980px) {
@@ -61,6 +98,18 @@ header {
 		text-align: center;
 		margin-top: 32px;
 	}
+	.collage__bg1 {
+		height: 450px;
+		transform: translateX(-270px);
+	}
+	.collage__bg2 {
+		height: 400px;
+		transform: translateX(200px) rotate(-10deg);
+	}
+	.header__links {
+		align-items: center;
+		justify-content: center;
+	}
 }
 
 @media (max-width:780px) {
@@ -68,14 +117,50 @@ header {
 		width: 250px;
 		height: 250px;
 	}
+	.collage__bg1 {
+		height: 400px;
+		transform: translateX(-270px) rotate(-20deg);
+	}
 }
 
 @media (max-width:560px) {
 	.header__picture--wrapper {
-		width: 200px;
-		height: 200px;
+		width: 220px;
+		height: 220px;
+	}
+	.header__content {
+		width: 60%;
 	}
 	.header__picture{
 		padding-bottom: 300px;
+	}
+	.header__title {
+		font-size: 24px;
+	}
+	.header__sub-title {
+		font-size: 16px;
+	}
+	.collage__bg1 {
+		height: 300px;
+		transform: translateX(-200px) rotate(-20deg);
+	}
+	.collage__bg2 {
+		height: 300px;
+		transform: translateX(150px) rotate(-10deg);
+	}
+}
+@media (max-width:480px) {
+	.header__picture--wrapper {
+		width: 200px;
+		height: 200px;
+	}
+	.collage__bg1 {
+		height: 280px;
+		bottom: 0;
+		transform: translateX(-200px) rotate(-20deg);
+	}
+	.collage__bg2 {
+		height: 280px;
+		transform: translateX(150px) rotate(-10deg);
 	}
 }
