@@ -15,7 +15,7 @@ function Landing({ landing }) {
             <h1 className="header__title">
               Hey, <span className="text__color">Justin</span> here!
             </h1>
-						<h2>
+						<h2 className="header__sub-title">
 						<Typical loop={Infinity} steps={[1500, "", 1500, "Poet", 1500, "Writer", 2100, "Web Developer", 2000]} />
 						</h2>
             <p className="header__para">

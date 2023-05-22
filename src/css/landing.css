@@ -104,6 +104,9 @@ header {
 }
 
 @media (max-width:560px) {
+	.header__content {
+		width: 60%;
+	}
 	.header__picture--wrapper {
 		width: 200px;
 		height: 200px;
@@ -111,12 +114,18 @@ header {
 	.header__picture{
 		padding-bottom: 300px;
 	}
+	.header__title {
+		font-size: 24px;
+	}
+	.header__sub-title {
+		font-size: 16px;
+	}
 	.collage__bg1 {
-		height: 380px;
-		transform: translateX(-270px) rotate(-20deg);
+		height: 300px;
+		transform: translateX(-200px) rotate(-20deg);
 	}
 	.collage__bg2 {
-		height: 370px;
-		transform: translateX(200px) rotate(-10deg);
+		height: 300px;
+		transform: translateX(150px) rotate(-10deg);
 	}
 }
