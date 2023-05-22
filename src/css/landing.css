@@ -1,3 +1,5 @@
+@import url(./animations.css);
+
 #landing {
 	height: calc(100vh - 100px);
 	background-color: rgb(238, 238, 232);
@@ -9,8 +11,6 @@
 	margin: 0 auto;
 	padding: 0 32px;
 }
-
-@import url(./animations.css);
 
 header {
 	position: absolute;
@@ -34,8 +34,6 @@ header {
 
 .header__picture {
 	width: 100%;
-	transform: scale(1.2);
-	padding-bottom: 500px;
 }
 
 .header__content {
