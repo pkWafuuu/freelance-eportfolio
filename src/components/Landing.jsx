@@ -19,7 +19,7 @@ function Landing({ landing }) {
               <Typical loop={Infinity} steps={[1500, "", 1500, "Poet", 1500, "Writer", 2100, "Web Developer", 2000]} />
             </h1>
 						<h2 className="header__sub-title">
-						<Typical loop={Infinity} steps={[1000, "Poet", 1500, "Writer", 2100, "Web Developer"]} />
+						<Typical loop={Infinity} steps={[1500, "Poet", 1500, "Writer", 2100, "Web Developer"]} />
 						</h2>
             <p className="header__para">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus,

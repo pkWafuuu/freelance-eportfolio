@@ -91,6 +91,7 @@ header {
 
 .header__links {
 	display: flex;
+	animation: fade-up 1000ms 700ms backwards;
 }
 
 .header__link {
