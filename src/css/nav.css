@@ -68,7 +68,7 @@ button {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	animation: entry-from-right 1000ms ease
+	animation: entry-from-right 500ms ease
 }
 
 .menu__exit {
