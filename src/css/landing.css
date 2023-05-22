@@ -89,6 +89,21 @@ header {
 	transform: translateX(300px) rotate(-10deg);
 }
 
+.header__links {
+	display: flex;
+}
+
+.header__link {
+	color: #b44c34;
+	font-size: 20px;
+	margin: 16px 12px 0 0 ;
+	transition: transform 300ms ease;
+}
+
+.header__link:hover {
+	transform: translateY(-2px);
+}
+
 .bg__filler{
 	position: absolute;
 }	
@@ -170,6 +185,7 @@ header {
 	}
 	.collage__bg1 {
 		height: 280px;
+		bottom: 0;
 		transform: translateX(-200px) rotate(-20deg);
 	}
 	.collage__bg2 {
