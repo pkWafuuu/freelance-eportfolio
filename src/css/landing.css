@@ -52,11 +52,12 @@ header {
 
 .header__para {
 	margin-top: 12px;
-	animation: fade-up 1000ms 500ms backwards;
+	animation: fade-up 1000ms 400ms backwards;
 }
 
 .header__links {
 	display: flex;
+	animation: fade-up 1000ms 700ms backwards;
 }
 
 .header__link {
