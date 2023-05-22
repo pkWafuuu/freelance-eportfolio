@@ -27,12 +27,12 @@ function Landing({ landing }) {
             </p>
 						<ul className="header__links">
 							<li className="header__link">
-								<a href="https://www.linkedin.com/in/justin-cruzana-18265519a/" target="_blank">
+								<a href="https://www.linkedin.com/in/justin-cruzana-18265519a/" target="_blank" rel="noopener noreferrer">
 									<FontAwesomeIcon icon="fa-brands fa-linkedin" />
 								</a>
 							</li>
 							<li className="header__link">
-								<a href={resume} target="_blank">
+								<a href={resume} target="_blank" rel="noopener noreferrer">
 									<FontAwesomeIcon icon="file-pdf" />
 								</a>
 							</li>
