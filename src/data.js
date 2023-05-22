@@ -1,5 +1,8 @@
-import img1 from "./assets/1.JPG"
-import img2 from "./assets/2.JPG"
+import img1 from "./assets/work1.png"
+import img2 from "./assets/work2.png"
+import img3 from "./assets/work3.png"
+import img4 from "./assets/work4.png"
+import img5 from "./assets/work5.png"
 
 export const information = [
 	{
@@ -19,21 +22,21 @@ export const information = [
   {
     id: 3,
     title: "Forgot the title",
-    url: img1,
+    url: img3,
 		summary: "Aöthen Magazine for poetry, 2022",
 		link:"https://aothenmagazine.com/#issue3pdf"
   },
 	{
     id: 4,
     title: "Mohole Flower",
-    url: img1,
+    url: img4,
 		summary: "Cordite for poetry, 2022",
 		link:"http://cordite.org.au/poetry/open/mohole-flower/"
   },
 	{
     id: 5,
     title: "Ode to the Houses One Signature Away From Demolition",
-    url: img1,
+    url: img5,
 		summary: "Alien Magazine for poetry, 2022",
 		link:"https://www.alienliterarymagazine.com/justin-andrew-cruzana"
   },

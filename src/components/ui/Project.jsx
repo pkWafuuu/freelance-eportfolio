@@ -1,3 +1,4 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Project({ info }) {
   return (
@@ -6,7 +7,11 @@ function Project({ info }) {
         <h2 className="project__title">{info.title}</h2>
         <p className="project__summary">{info.summary}</p>
 				<div className="project__links">
-					<div className="project__link">link</div>
+					<div className="project__link">
+						<a href="">
+							<FontAwesomeIcon icon="link" />
+						</a>
+					</div>
 				</div>
       </div>
 			<figure className="project__img--wrapper ">
