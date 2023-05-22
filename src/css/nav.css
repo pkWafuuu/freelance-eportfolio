@@ -68,11 +68,7 @@ button {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-<<<<<<< HEAD
 	animation: entry-from-right 500ms ease
-=======
-	animation: entry-from-right 1000ms ease
->>>>>>> 513b6d1 (feat: add animations, style, and burger menu)
 }
 
 .menu__exit {
