@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Project({ info }) {
@@ -8,7 +9,7 @@ function Project({ info }) {
         <p className="project__summary">{info.summary}</p>
 				<div className="project__links">
 					<div className="project__link">
-						<a href="">
+						<a href={info.link} target="_blank" rel="noopener noreferrer">
 							<FontAwesomeIcon icon="link" />
 						</a>
 					</div>
