@@ -64,10 +64,21 @@
 	margin-top: 12px;
 }
 
+
 .project__link {
-	margin-top: 8px;
+	margin-top: 16px;
 	font-size: 20px;
+	animation: pulse 1000ms linear infinite alternate;
+	transition: all 300ms ease;
+	position: absolute;
 }
+
+.project__link:hover {
+	transform: scale(1.5);
+	animation-play-state: paused;
+	color: #ebebc9;
+}
+
 
 
 @media (max-width: 780px) {

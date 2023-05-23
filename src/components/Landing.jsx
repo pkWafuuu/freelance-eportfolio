@@ -21,9 +21,8 @@ function Landing({ home }) {
 						<Typical loop={Infinity} steps={[2000, "Poet", 2100, "Writer", 2100, "Web Developer"]} />
 						</h2>
             <p className="header__para">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus,
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi,
-              ducimus perspiciatis provident sunt voluptates ipsum.
+              I'm a fresh graduate from the University of Santo Tomas, and I'm based in Metro Manila.
+							I'm interested in copywriting, editing, and research-oriented work.
             </p>
 						<ul className="header__links">
 							<li className="header__link">
