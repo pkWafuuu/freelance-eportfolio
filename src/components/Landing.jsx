@@ -5,9 +5,9 @@ import resume from "../assets/resume.pdf"
 import Typical from "react-typical";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-function Landing({ landing }) {
+function Landing({ home }) {
   return (
-    <section id="landing" ref={landing}>
+    <section id="landing" ref={home}>
       <div className="row">
         <header>
           <figure className="header__picture--wrapper">

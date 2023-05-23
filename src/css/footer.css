@@ -1,0 +1,35 @@
+footer {
+	background-color: rgb(27, 27, 27);
+	padding: 40px 0;
+}
+
+.footer__row {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: #fff;
+}
+
+.footer__copyright {
+	color: rgba(236, 236, 236, 0.904);
+	font-size: 14px;
+}
+
+.footer__links {
+	display: flex;
+}
+
+.footer__link {
+	margin: 0 24px;
+	transition: 300ms ease;
+}
+
+.footer__link:hover {
+	transform: translateY(-2px) scale(1.1);
+}
+
+.footer__divider-horizontal {
+	margin: 12px 0;
+	border-top: 1px solid rgba(184, 184, 184, 0.74);
+	width: 300px;
+}
