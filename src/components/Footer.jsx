@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
+
 function Footer({ handleClick, home }){
 	return (
 		<footer>
