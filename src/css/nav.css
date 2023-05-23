@@ -36,16 +36,20 @@ button {
 	font-weight: bold;
 }
 
-.main__link {
-	color: #fff;
-	background-color: #b44c34;
-	border-radius: 25px;
-	padding: 12px 24px;
+.nav__link--main {
+	margin-left: 24px;
+	background-color: transparent;
 	transition: all 300ms ease;
 }
 
-.main__link:hover {
-	background-color: #b13a1f;
+.main__link {
+	color: #fff;
+	border-radius: 25px;
+	background-color: #b44c34;
+	padding: 12px 24px;
+}
+
+.nav__link--main:hover {
 	transform: translateY(-3px);
 }
 

@@ -15,8 +15,8 @@ function Nav({ handleClick, works, home }) {
         <ul className="nav__links">
           <li className="nav__link link__hover-effect" onClick={() => handleClick(home)}>Home</li>
           <li className="nav__link link__hover-effect" onClick={() => handleClick(works)}>Works</li>
-          <li className="nav__link main__link">
-						<a href="mailto:justinandrewcruzana@gmail.com" >Contact</a>	
+          <li className="nav__link--main">
+						<a href="mailto:justinandrewcruzana@gmail.com" className="main__link" >Contact</a>	
 					</li>
         </ul>
         <button className="burger__menu" onClick={onClickMenu}>
