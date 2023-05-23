@@ -28,11 +28,11 @@ function Nav({ handleClick, works, home }) {
             <FontAwesomeIcon icon="times" />
           </button>
           <ul className="menu__links">
-            <li className="menu__link" onClick={() => handleClick(home)}>Home</li>
+            <li className="menu__link" onClick={() => {handleClick(home); onClickMenu()}}>Home</li>
             <li className="menu__link">
-							<a href="mailto:justinandrewcruzana@gmail.com" >Contact</a>	
+							<a href="mailto:justinandrewcruzana@gmail.com" onClick={onClickMenu}>Contact</a>	
 						</li>
-            <li className="menu__link" onClick={() => handleClick(works)}>
+            <li className="menu__link" onClick={() => {handleClick(works); onClickMenu()}}>
               Works
             </li>
           </ul>
