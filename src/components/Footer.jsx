@@ -1,4 +1,4 @@
-function Footer(){
+function Footer({ handleClick, home }){
 	return (
 		<footer>
 			<div className="footer__row">
@@ -6,18 +6,18 @@ function Footer(){
 				<div className="footer__copyright">Copyright &copy; 2023 Justin Cruzana</div>
 				<div className="footer__divider-horizontal"></div>
 				<ul className="footer__links">
-					<li>
-						<a href="" className="footer__link">
+					<li className="footer__link">
+						<a rel="noopener noreferrer" onClick={() => handleClick(home)}>
 							Home
 						</a>
 					</li>
-					<li>
-						<a href="" className="footer__link">
+					<li className="footer__link">
+						<a href="https://www.linkedin.com/in/justin-cruzana-18265519a/" rel="noopener noreferrer">
 							LinkedIn
 						</a>
 					</li>
-					<li>
-						<a href="" className="footer__link">
+					<li className="footer__link">
+						<a href="mailto:justinandrewcruzana@gmail.com" rel="noopener noreferrer">
 							Contact
 						</a>
 					</li>
