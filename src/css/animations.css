@@ -1,3 +1,15 @@
+
+@keyframes fade-entry-left {
+	0% {
+		opacity: 0;
+		transform: translateX(-500px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
 @keyframes entry-from-right {
 	0% {
 		transform: translateX(500px);

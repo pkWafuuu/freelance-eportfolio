@@ -23,11 +23,13 @@ button {
 .nav__logo {
 	font-size: 24px;
 	font-weight: bold;
+	animation: fade-entry-left 2000ms 1000ms backwards ;
 }
 
 .nav__links {
 	display: flex;
 	align-items: center;
+	animation: fade-up 800ms 1000ms backwards;
 }
 
 .nav__link {
