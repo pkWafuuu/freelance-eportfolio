@@ -22,7 +22,7 @@ function Works({ works }) {
     <section id="works" ref={works}>
       <div className="container">
         <div className="row">
-          <h1 className="works__title">Here are my literary works:</h1>
+          <h1 className="works__title">My <span className="text__color">published</span> literary works:</h1>
           <div className="works__container">
             <div ref={sliderRef} className="keen-slider">
               {information.map(info => (
