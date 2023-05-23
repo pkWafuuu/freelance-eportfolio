@@ -4,6 +4,7 @@ function Footer(){
 			<div className="footer__row">
 				<h1 className="footer__title">Cruzana</h1>
 				<div className="footer__copyright">Copyright &copy; 2023 Justin Cruzana</div>
+				<div className="footer__divider-horizontal"></div>
 				<ul className="footer__links">
 					<li>
 						<a href="" className="footer__link">
